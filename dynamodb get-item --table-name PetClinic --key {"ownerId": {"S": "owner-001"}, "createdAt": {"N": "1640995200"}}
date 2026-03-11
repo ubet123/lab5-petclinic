@@ -1,0 +1,54 @@
+{
+    "Item": {
+        "isActive": {
+            "BOOL": true
+        },
+        "petNames": {
+            "L": [
+                {
+                    "S": "Max"
+                },
+                {
+                    "S": "Bella"
+                }
+            ]
+        },
+        "petCount": {
+            "N": "2"
+        },
+        "address": {
+            "M": {
+                "city": {
+                    "S": "Mumbai"
+                },
+                "pincode": {
+                    "S": "400001"
+                },
+                "street": {
+                    "S": "123 Main St"
+                }
+            }
+        },
+        "hasPet": {
+            "BOOL": true
+        },
+        "email": {
+            "S": "john@example.com"
+        },
+        "phone": {
+            "S": "9876543210"
+        },
+        "ownerName": {
+            "S": "John Doe"
+        },
+        "ownerId": {
+            "S": "owner-001"
+        },
+        "age": {
+            "N": "35"
+        },
+        "createdAt": {
+            "N": "1640995200"
+        }
+    }
+}

@@ -1,0 +1,17 @@
+{
+    "ownerId": {"S": "owner-001"},
+    "createdAt": {"N": "1640995200"},
+    "ownerName": {"S": "John Doe"},
+    "email": {"S": "john@example.com"},
+    "phone": {"S": "9876543210"},
+    "age": {"N": "35"},
+    "petCount": {"N": "2"},
+    "isActive": {"BOOL": true},
+    "hasPet": {"BOOL": true},
+    "petNames": {"L": [{"S": "Max"}, {"S": "Bella"}]},
+    "address": {"M": {
+        "street": {"S": "123 Main St"},
+        "city": {"S": "Mumbai"},
+        "pincode": {"S": "400001"}
+    }}
+}
